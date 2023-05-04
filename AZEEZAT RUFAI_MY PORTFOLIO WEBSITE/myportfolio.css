@@ -1,0 +1,339 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* CSS FONT SEGMENT*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.fullpage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img\ 101.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 8% 8%;
+    position: relative;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px 23px;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title{
+    color: black;
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+span{
+    color: purple;
+}
+
+.data button :hover{
+    transition: .4s;
+    color: palevioletred;
+cursor: pointer;
+}
+ 
+
+/* PSEUDO ELEMENTS */
+nav ul li:hover{
+    color: black;
+    transition: .4s;
+}
+.button{
+    background-color: purple;
+    border: 2px solid purple;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+    padding: 10px 25px;
+}
+.button:hover{
+background-color: transparent;
+border: 2px solid purple;
+transition: .4s;
+} 
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size: 45px;
+    letter-spacing: 2px;
+    
+}
+.developer{
+    font: size 20px;
+}
+
+.data form{
+    position: relative;
+    width: 380px;
+    max-width: 100%;
+}
+
+.data form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid purple;
+    outline: none;
+    border-radius: 30px;
+}
+
+.data form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: purple;
+    color: white;
+    margin-top: 5px;
+    right: 6px;
+}
+.about{
+width: 100%;
+padding: 100px 0px;
+background-color: purple
+}
+
+.jpgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profile{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*.about img{
+    height: auto;
+    width: 430px;*/
+
+.profiletext{
+    width: 550px;
+}
+
+
+
+.profiletext h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.profile data{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 23px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.profiletext p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+  
+}
+
+button{
+   background-color: palevioletred;
+   color: purple;
+text-decoration: none;
+border: 2px solid transparent;
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s;
+
+}
+button:hover{
+    background-color: pink;
+    border: 2px solid antiquewhite;
+    cursor: pointer;
+}
+
+
+.service{
+    background-color: palevioletred;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: purple;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: palevioletred;
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: palevioletred;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid palevioletred;
+    transform: scale(1.2);  
+}
+
+.contact-me{
+    width: 100%;
+    height: 500px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: palevioletred;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid palevioletred;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: black;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: purple;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media (min-width: 300px) and (max-width: 1440px){
+    .jpgs{
+        margin-bottom: 4px;
+        flex-direction: column;
+    }
+}
